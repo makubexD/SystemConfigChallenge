@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PremiumCalculator.Common\PremiumCalculator.Common.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.DTOs\PremiumCalculator.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>

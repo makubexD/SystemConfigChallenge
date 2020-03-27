@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 20px;
+}
+
+.form {
+	padding-bottom: 60px;
+}
+
+.row {
+	display: table;
+	padding: 3px 0;
+}
+
+.label,
+.button,
+.select {
+	height: 33px;
+}
+
+.label,
+.input,
+.button,
+.select,
+.result {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.label {
+	width: 100px;
+	padding-right: 10px;
+	text-align: left;
+}
+.input {
+	width: 185px;
+	height: 27px;
+}
+
+.button {
+	margin-right: 35px;
+}
+
+.select {
+	margin: 0 40px;
+	color: black;
+}
+
+.result .label {
+	width: 70px;
+}
+
+.d-none {
+	display: none;
+}
+
+.error {
+	color: red;
+}
